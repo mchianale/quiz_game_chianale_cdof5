@@ -4,6 +4,7 @@ Created on Mon Jan 29 18:10:23 2024
 
 @author: Matteo
 """
+import random
 
 score = 0
 questions  = [
@@ -58,7 +59,23 @@ questions  = [
         "answer": 3
     }
 ]
+score =0
+for i in range(15):
+    l=random.randint(0,9)
+    print('Question {}, {}'.format(i+1,questions[l]['question']))
+    for j,o in enumerate(questions[l]['options']):
+        print('{} - {}'.format(j+1, o))
+    a = input('Please select the rigth answer : ')
+    if a == str(questions[l]['answer']):
+        score += 1
+        print('Good ! current score : {}/{}\n'.format(score, 15))
+    else:
+        print('False ! current score : {}/{}\n'.format(score, 15))
 
+print('Final score : {}/{}'.format(score, 15))
+
+
+'''
 for i,q in enumerate(questions):
     print('Question {}, {}'.format(i+1, questions[i]['question']))
     for j,o in enumerate(questions[i]['options']):
@@ -71,4 +88,4 @@ for i,q in enumerate(questions):
         print('False ! current score : {}/{}\n'.format(score, len(questions)))
 
 print('Final score : {}/{}'.format(score, len(questions)))
-    
+   '''
