@@ -4,6 +4,13 @@ Created on Mon Jan 29 18:10:23 2024
 
 @author: Matteo
 """
+<<<<<<< HEAD
+import json
+file = open('questions.json', 'r')
+questions = json.load(file)
+score = 0
+ 
+=======
 import random
 
 score = 0
@@ -71,6 +78,7 @@ for i in range(15):
         print('Good ! current score : {}/{}\n'.format(score, 15))
     else:
         print('False ! current score : {}/{}\n'.format(score, 15))
+>>>>>>> 98c13037d2009817ad5e5f919b5db72b9b416eb2
 
 print('Final score : {}/{}'.format(score, 15))
 
