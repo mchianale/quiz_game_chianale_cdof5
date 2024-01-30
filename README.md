@@ -63,7 +63,9 @@ If you want to add new questions, you have to update and run `create_bank_questi
 
 ## All data
 
- - `question0.json` : manually
- - `question1.json` : [here](https://gist.github.com/cmota/f7919cd962a061126effb2d7118bec72)
- - `question2.json` : [here](https://github.com/Eromnoj/quizAPI/blob/main/quiz.json), data was in French, I used Google Translator to create from data an English data.
- 
+- `question0.json`: Manually created.
+
+- `question1.json`: Available [here](https://gist.github.com/cmota/f7919cd962a061126effb2d7118bec72).
+
+- `question2.json`: Available [here](https://github.com/Eromnoj/quizAPI/blob/main/quiz.json). The original data was in French and has been translated to English using Google Translator.
+
