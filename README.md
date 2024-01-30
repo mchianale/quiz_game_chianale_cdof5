@@ -69,3 +69,5 @@ If you want to add new questions, you have to update and run `create_bank_questi
 
 - `question2.json`: Available [here](https://github.com/Eromnoj/quizAPI/blob/main/quiz.json). The original data was in French and has been translated to English using Google Translator.
 
+- `questions3.txt`: Available [here](https://raw.githubusercontent.com/curiousily/simple-quiz/master/script/statements-data.json)
+
