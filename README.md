@@ -1,8 +1,8 @@
 ## Quiz Game
 Hi, this is a simple Python quiz game.
 - You have to answer to 10 questions per session.
-- For each question, you ahve to chose just one answer from multiple options.
-- There are actually questions.
+- For each question, you have to chose just one answer from multiple options.
+- There are actually \br{10} questions.
 
 ## Running the Quiz Game Script
 
