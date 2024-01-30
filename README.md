@@ -58,3 +58,9 @@ If you want to add new questions, you have to update and run `create_bank_questi
         "category": "astronomy"
     }
 ```
+
+## All data
+
+ - `question0.json` : manually
+ - `question1.json` : [here][https://gist.github.com/cmota/f7919cd962a061126effb2d7118bec72]
+ 
