@@ -2,7 +2,7 @@
 Hi, this is a simple Python quiz game.
 - You have to answer to 10 questions per session.
 - For each question, you have to chose just one answer from multiple options.
-- There are actually **557** questions.
+- There are actually **637** questions.
 
 ## Running the Quiz Game Script
 

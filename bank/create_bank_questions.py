@@ -20,7 +20,6 @@ questions1 = json.load(file)
 equivalent_answer = {'A' : 1, 'B' : 2, 'C' : 3, 'D' : 4}
  
 for question in questions1:
-    q = {}
     new_question = {
         'question' : question['question'],
         'options' : [question['A'],question['B'],question['C'],question['D']],
@@ -30,6 +29,10 @@ for question in questions1:
     questions.append(new_question)
 file.close()
 
+#get questions 3
+file = open('questions2.json', 'r')
+questions +=  json.load(file)
+file.close()
 
 #save all
 print(questions)
