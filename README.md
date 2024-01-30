@@ -37,3 +37,22 @@ Before you run the script, ensure you have Python installed on your system. You 
 ### Troubleshooting
 
 If you encounter any issues while running the script, ensure that Python is correctly installed on your system and that you're running the script in the right directory. For more support, feel free to raise an issue in this repository.
+
+## Add questions to the actual bank
+
+If you want to add new questions, you have to update and run `create_bank_questions.py` located the bank folder.
+
+### Format of question
+
+```
+{
+        "question": "What is the largest planet in our solar system?",
+        "options": [
+            "Jupiter",
+            "Saturn",
+            "Neptune"
+        ],
+        "answer": 1,
+        "category": "astronomy"
+    }
+```
