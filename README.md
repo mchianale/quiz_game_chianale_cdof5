@@ -72,3 +72,5 @@ When you run the script it will also update README by change the total of existi
 
 - `questions3.txt`: Available [here](https://raw.githubusercontent.com/curiousily/simple-quiz/master/script/statements-data.json)
 
+- `questions4.json`: Created using GPT.
+
