@@ -93,9 +93,7 @@ file.close()
 #update Read me
 file = open('../README.md', 'r')
 lines = file.readlines()
-arr = lines[4].split('**')
-arr[1] = len(questions)
-lines[4] = arr[0] + '**' + str(arr[1]) + '**' + arr[2]
+lines[3] = '- **Dynamic Question Bank:** With **' + str(len(questions)) + '** diverse questions, test your knowledge across various categories.\n'
 file.close()
 
 file = open('../README.md', 'w')
