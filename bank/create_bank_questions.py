@@ -77,6 +77,10 @@ for i in range(len(list_questions3)):
     
 file.close()
 
+#get questions 4
+file = open('questions4.json', 'r')
+questions +=  json.load(file)
+file.close()
 
 #save all
 print(questions)
