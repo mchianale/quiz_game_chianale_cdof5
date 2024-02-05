@@ -15212,5 +15212,77 @@
         ],
         "answer": 1,
         "category": "general culture"
+    },
+    {
+        "question": "The Great Wall of China is visible from space with the naked eye.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 2,
+        "category": "general culture"
+    },
+    {
+        "question": "Venus is the hottest planet in our solar system.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1,
+        "category": "general culture"
+    },
+    {
+        "question": "Sharks are immune to all known diseases.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 2,
+        "category": "general culture"
+    },
+    {
+        "question": "The inventor of the light bulb, Thomas Edison, was afraid of the dark.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 2,
+        "category": "general culture"
+    },
+    {
+        "question": "Coffee is made from beans.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 2,
+        "category": "general culture"
+    },
+    {
+        "question": "The shortest war in history lasted 38 minutes.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1,
+        "category": "general culture"
+    },
+    {
+        "question": "The Eiffel Tower can be taller during the summer.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1,
+        "category": "general culture"
+    },
+    {
+        "question": "A group of flamingos is called a 'flamboyance'.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": 1,
+        "category": "general culture"
     }
 ]
