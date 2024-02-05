@@ -1,76 +1,71 @@
 ## Quiz Game
-Hi, this is a simple Python quiz game.
-- You have to answer to 10 questions per session.
-- For each question, you have to chose just one answer from multiple options.
-- There are actually **1558** questions.
+Welcome to this simple yet engaging Python quiz game. Challenge your knowledge across a vast array of topics with a dynamic question bank.
+### Key Features
+- **Dynamic Question Bank:** With **1558** diverse questions, test your knowledge across various categories.
+- **Customizable Sessions:** Each session presents 10 questions, allowing for a quick yet engaging quiz experience.
+- **Multiple Choice Questions:** For every question, choose your answer from multiple options, ensuring a challenging and fun gameplay.
 
-## Running the Quiz Game Script
+## Getting Started
 
-This repository contains a simple Python quiz game, `main.py`, which can be run easily on any system with Python installed.
+This repository hosts `main.py`, the main script for running the Quiz Game, which offers an intuitive command-line interface for users.
 
 ### Prerequisites
 
-Before you run the script, ensure you have Python installed on your system. You can download and install Python from [python.org](https://www.python.org/downloads/). This script is compatible with Python 3.x.
+Ensure Python 3.x is installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
 
-### Steps to Run the Script
+### Running the Quiz Game
 
-1. **Clone the Repository**: First, clone this repository to your local machine using Git. If you have Git installed, you can run the following command:
-
-   ```
+1. **Clone the Repository:** Use Git to clone the repository to your local machine.
+   ```shell
    git clone https://github.com/mchianale/quiz_game_chianale_cdof5.git
    ```
-
-2. **Navigate to the Repository Directory**: Change your directory to the folder containing the cloned repository.
-
-   ```
+2. **Navigate to the Repository:** Change your working directory to the cloned repository.
+   ```shell
    cd [your-repo-name]
    ```
-
-3. **Run the Script**: Run `main.py` using Python. In your terminal or command prompt, execute the following command:
-
-   ```
+3. **Launch the Game:** Execute `main.py` with Python.
+   ```shell
    python main.py
    ```
 
-   This will start the quiz game in your command line interface.
-
 ### Troubleshooting
 
-- If you encounter any issues while running the script, ensure that Python is correctly installed on your system and that you're running the script in the right directory. For more support, feel free to raise an issue in this repository.
+Encountering issues? Ensure Python is properly installed and that you're in the correct directory. For further assistance, open an issue in this repository.
 
-## Add questions to the actual bank
+## Expanding the Question Bank
 
-If you want to add new questions, you have to update and run `create_bank_questions.py` located the bank folder.
+To add new questions, modify and execute `create_bank_questions.py` found in the bank folder. This updates the total count of questions in `all_questions.json` and the README documentation.
 
-When you run the script it will also update README by change the total of existing questions in `all_questions.json`.
+### Question Format
 
+Add questions using the following JSON structure:
 
-### Format of question
-
-```
+```json
 {
-        "question": "What is the largest planet in our solar system?",
-        "options": [
-            "Jupiter",
-            "Saturn",
-            "Neptune"
-        ],
-        "answer": 1,
-        "category": "astronomy"
-    }
+    "question": "What is the largest planet in our solar system?",
+    "options": [
+        "Jupiter",
+        "Saturn",
+        "Neptune"
+    ],
+    "answer": 1,
+    "category": "astronomy"
+}
 ```
 
+### Question Sources
 
+- `question0.json`: Manually curated.
+- `question1.json`: [View Source](https://gist.github.com/cmota/f7919cd962a061126effb2d7118bec72).
+- `question2.json`: [View Source](https://github.com/Eromnoj/quizAPI/blob/main/quiz.json). Translated from French using Google Translator.
+- `questions3.txt`: [View Source](https://raw.githubusercontent.com/curiousily/simple-quiz/master/script/statements-data.json).
+- `questions4.json`: Generated using GPT.
 
-## All data
+## Future Enhancements
 
-- `question0.json`: Manually created.
+We're exploring ways to enrich your quiz experience:
+- **Customizable Quiz Sessions:** A proposed feature to let players select their preferred categories and the number of questions per session. Track our progress and share your thoughts on this [issue](https://github.com/mchianale/quiz_game_chianale_cdof5/issues/5).
 
-- `question1.json`: Available [here](https://gist.github.com/cmota/f7919cd962a061126effb2d7118bec72).
+## Contribution
 
-- `question2.json`: Available [here](https://github.com/Eromnoj/quizAPI/blob/main/quiz.json). The original data was in French and has been translated to English using Google Translator.
-
-- `questions3.txt`: Available [here](https://raw.githubusercontent.com/curiousily/simple-quiz/master/script/statements-data.json)
-
-- `questions4.json`: Created using GPT.
-
+Your contributions are welcome! Whether it's adding new questions, enhancing the game's features, or reporting issues, every effort helps improve the quiz game for everyone.
